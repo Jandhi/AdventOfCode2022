@@ -31,6 +31,5 @@ for inv in elves:
     elif num > third_max:
         third_max = num
 
-print(max)
-print(max + second_max + third_max)
-
+print(max) # 68787
+print(max + second_max + third_max) # 198041
