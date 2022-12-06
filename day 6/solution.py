@@ -2,7 +2,6 @@ with open('day 6/input.txt') as file:
     string = file.readline()
 
     for amt in (4, 14):
-        i = 0
         for i in range(len(string)):
             if len(set(string[i:i+amt])) == amt:
                 break
