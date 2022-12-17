@@ -102,7 +102,6 @@ print(reward_of_path(best_path), best_path) # 1460 [OG, UU, KT, OX, ZR, GU]
 best_pair = None
 best_rw = 0
 
-
 for path, reward in eligible_paths:
     for other_path, other_reward in eligible_paths:
         if len(set(path).intersection(set(other_path))) == 0:
@@ -112,4 +111,4 @@ for path, reward in eligible_paths:
                 best_rw = rw
                 best_pair = path, other_path
 
-print(best_rw, best_pair)
+print(best_rw, best_pair) # 2117 ([OG, UU, KT, OX, ZR], [AM, YK, YS, IH, GU, UI])
