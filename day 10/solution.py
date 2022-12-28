@@ -38,4 +38,4 @@ with open('day 10/input.txt') as file:
             cycle()
     
     print(signal_sum) # 14220
-    print(crt)
+    print(crt) # zrarlfzu
